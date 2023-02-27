@@ -1,0 +1,24 @@
+Git - Source Code Version Control
+GitHub:
+
+OpenSource != Free
+
+ChatGPT: must check
+
+Storages:
+	1bit 	= 0/1
+	1byte   = 8 bit
+	1Kbyte  = 1024 byte
+	1Mbyte  = 1024 Kbyte
+	1Gbyte  = 1024 Mbyte
+
+Programs Versions:
+
+X.Y.Z
+Z-> bug fixes
+Y-> non-breaking changes
+X-> breaking changes
+
+Python 3.10.1
+
+
