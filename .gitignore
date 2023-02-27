@@ -1,0 +1,23 @@
+# ignore all dot files
+**/.*
+
+# except
+!.gitmodules
+!.gitignore
+# !.vscode
+
+# virtualenvs
+.venv
+venv/
+ENV/
+
+#custom hiden files
+**/_*
+__*
+___*
+
+__pycache__
+
+#other
+nohup.out
+
