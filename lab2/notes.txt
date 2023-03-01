@@ -1,0 +1,13 @@
+IDE = Integrated Deveplopment Environment:
+	PyCharm, Visual Studio
+Code Editor =  VSCode
+
+
+
+0,..,9
+
+234 = 2*10^2 + 3*10^1 + 4*10^0
+
+011 = 0*2^2 + 1*2^1 + 1*2^0 =  2 + 1 =3
+
+3 = 00000011
