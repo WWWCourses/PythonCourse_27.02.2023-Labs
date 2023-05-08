@@ -1,0 +1,7 @@
+ASCII (Text Files)
+Binary Files
+
+
+11111111 = > 256 sumbols
+
+Symbols table => ASCII (1byte), Unicode=> 8byte
