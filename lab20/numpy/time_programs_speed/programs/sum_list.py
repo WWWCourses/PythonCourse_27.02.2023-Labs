@@ -1,4 +1,4 @@
-SIZE = 90000000
+SIZE = 9_000_0000
 arr = []
 sum = 0
 
@@ -11,3 +11,4 @@ for i in range(SIZE):
     sum += arr[i]
 
 print(sum)
+
