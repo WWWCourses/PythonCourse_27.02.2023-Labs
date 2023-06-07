@@ -8,10 +8,10 @@
 # Изход: Factorial of 5 is 120
 
 
-# from lib.aux import get_user_number
-import lib.aux as aux
+# from lib.auxiliary import get_user_number
+import lib.auxiliary as auxiliary
 
-x = aux.get_user_number()
+x = auxiliary.get_user_number()
 
 def fact(n)->int:
 	if n==0:
