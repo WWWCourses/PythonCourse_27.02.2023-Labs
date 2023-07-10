@@ -1,0 +1,4 @@
+r'dog|cat' = 'dog', 'cat'
+r'do(g|c)at' = 'dogat', 'docat'
+
+r'a[0-8]|b[8-9]' = 'a0','a1', ...'a8', 'b8', 'b9'
