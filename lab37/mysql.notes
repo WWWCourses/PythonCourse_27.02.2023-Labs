@@ -1,0 +1,29 @@
+CRUD: Create, Read, Update,Delete
+
+DB: TEST
+
+Table: Client:
+
+	fname  | lname
+	Tom    | Petrov
+	John   | Ivanov
+
+
+CREATE TABLE Client(
+  `fname` VARCHAR(5),
+  lname CHAR(10)
+
+) ;
+
+
+Table: Address
+ clientTown| clientZIP
+ Sofia     | 1508
+ Sofia     | 1508
+
+ CREATE TABLE Address(
+	clientTown varchar(20),
+	clientZIP smallint(4) unsigned
+ )
+
+
