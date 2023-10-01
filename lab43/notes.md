@@ -1,0 +1,3 @@
+Static typed languages: C, C++, Java, c#,...
+Dynamic typed languages: Python, JS, PHP, Rubi
+
