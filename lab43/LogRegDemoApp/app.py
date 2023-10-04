@@ -5,12 +5,14 @@ from PyQt6 import QtGui as qtg
 
 from registrationForm import FormWindow
 from db import DB
+from read_config_data import read_db_config
 
 class MainWindow(qtw.QWidget):
 
 	def __init__(self , *args, **kwargs):
 		super().__init__(*args, **kwargs)
-		self.db = DB(user='test', password='test1234', db='pyqt_users_db')
+		db_config = read_db_config()
+		self.db = DB(user=db_config['user'], password=db_config['password'], db=db_config['database'])
 
 		# self.db.create_user_table()
 
