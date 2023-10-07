@@ -1,0 +1,25 @@
+QPushButton{
+	background-color:#FFF;
+	color: rgb(8, 255, 45);
+}
+
+QPushButton#btn3{
+	background-color:#777;
+	color: #333;
+	text-decoration: underline;
+	width: 300px;
+}
+
+QGroupBox{
+	border:5px solid #F00;
+}
+
+QGroupBox>QLabel{
+	color:aqua;
+	font-size: 30px;
+}
+
+QGroupBox>QLabel:hover{
+	color: yellow;
+	font-size: 60px;
+}
