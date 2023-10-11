@@ -1,0 +1,32 @@
+== Info:   Trying 127.0.0.1:9999...
+== Info: TCP_NODELAY set
+== Info: Connected to 127.0.0.1 (127.0.0.1) port 9999 (#0)
+=> Send header, 78 bytes (0x4e)
+0000: GET / HTTP/1.1
+0010: Host: 127.0.0.1:9999
+0026: User-Agent: curl/7.68.0
+003f: Accept: */*
+004c: 
+== Info: Mark bundle as not supporting multiuse
+== Info: HTTP 1.0, assume close after body
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.0 200 OK
+<= Recv header, 38 bytes (0x26)
+0000: Server: SimpleHTTP/0.6 Python/3.9.12
+<= Recv header, 37 bytes (0x25)
+0000: Date: Wed, 11 Oct 2023 17:10:50 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Content-type: text/html; charset=utf-8
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 420
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 420 bytes (0x1a4)
+0000: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3
+0040: .org/TR/html4/strict.dtd">.<html>.<head>.<meta http-equiv="Conte
+0080: nt-Type" content="text/html; charset=utf-8">.<title>Directory li
+00c0: sting for /</title>.</head>.<body>.<h1>Directory listing for /</
+0100: h1>.<hr>.<ul>.<li><a href="images/">images/</a></li>.<li><a href
+0140: ="main.css">main.css</a></li>.<li><a href="main.html">main.html<
+0180: /a></li>.</ul>.<hr>.</body>.</html>.
+== Info: Closing connection 0
