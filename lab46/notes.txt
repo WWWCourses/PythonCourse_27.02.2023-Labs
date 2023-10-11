@@ -1,0 +1,53 @@
+OSI=> conceptual model
+
+LAN = Local Area Network
+
+
+
+IPv4
+0.0.0.0
+123.55.33.255
+123.55.33.0
+255.255.255.255
+
+0, 1, 2, ...255 => 2**8 = 4* 8 bit = 32
+
+
+4 => 2**2
+0=> 00
+1=> 01
+2=> 10
+3=> 11
+
+
+
+Static IP => 123.4.5.3 (always the same)
+Dynamic IP =>
+
+
+
+2**32 = 4_294_967_296
+
+
+Domain Name Server:
+
+	123.4.5.3: iva.com
+
+
+
+# ----------------------------------- Ports ---------------------------------- #
+185.123.190.194:443
+
+37.63.96.206:23 <=> 185.123.190.194:443 softwareacademy.com
+37.63.96.206:34 <=> 185.199.110.133:443 softwareacademy.com
+
+https://softwareacademy.bg/
+
+
+127.0.0.1
+
+
+# -------------------------------- HTTP Basics ------------------------------- #
+HTTP = Hyper Text Transfer Protocol
+
+HTML = Hyper Text Markup Langauge
