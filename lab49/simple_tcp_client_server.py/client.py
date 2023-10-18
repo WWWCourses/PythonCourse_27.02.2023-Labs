@@ -34,14 +34,14 @@ def start_listening(client):
 
 def start_talking():
 	while True:
-		input_stream = [sys.stdin, socket]
+		input_stream = [sys.stdin, client]
 		read_streams, _, _ = select.select(input_stream, [], [])
 		for active in read_streams:
-			if active==socket:
+			if active==client:
 				msg = client.recv(BUF_SIZE).decode()
 				print(msg)
 			else:
-				msg = input('Enter a message: ')
+				msg = input('')
 				if msg!='exit':
 					client.send(msg.encode())
 				else:
