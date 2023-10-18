@@ -11,6 +11,7 @@ ADDR = (SERVER_IP, PORT)
 def start_sending(client):
 	# send some messages
 	while True:
+		lock.acquire()
 		msg = input('Enter a message: ')
 		if msg!='exit':
 			client.send(msg.encode())
@@ -19,12 +20,14 @@ def start_sending(client):
 			client.close()
 			print('Buy!')
 			exit()
-
+		lock.release()
 
 def start_listening(client):
 	while True:
+		lock.acquire()
 		msg = client.recv(BUF_SIZE).decode()
 		print(msg)
+		lock.release()
 
 def login():
 	name = input('Enter your name: ')
@@ -43,6 +46,8 @@ if __name__=="__main__":
 	welcome_msg = client.recv(BUF_SIZE).decode()
 
 	print(welcome_msg)
+
+	lock = threading.Lock()
 
 	send_thread = threading.Thread(
 		target=start_sending,

@@ -42,7 +42,7 @@ def handle_client(conn, addr):
 	connected = True
 	while connected:
 		msg = conn.recv(BUF_SIZE).decode(FORMAT)
-		if msg == DISCONNECT_MESSAGE:
+		if msg == DISCONNECT_MESSAGE or msg=="":
 			connected = False
 
 		msg_to_broadcast = f'<{clients[conn]}>: {msg}'
