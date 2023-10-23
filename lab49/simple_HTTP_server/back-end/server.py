@@ -3,7 +3,7 @@ from inspect import getsourcefile
 import os
 import re
 
-PORT = 5050
+PORT = 8000
 SERVER_NAME = socket.gethostname()
 SERVER_IP = socket.gethostbyname(SERVER_NAME)
 BUF_SIZE = 1024
@@ -44,6 +44,7 @@ def process_request(request):
     data = re.split(r'(?:\r?\n){2}', request)[1]
     print(data)
     user_name=data.split("=")[1]
+    print(f'data received: {user_name}')
 
     # do something with data
 
