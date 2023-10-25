@@ -1,0 +1,4 @@
+# -------------------------------- robots.txt -------------------------------- #
+www.imdb.com
+
+User-agent: *  // all clients, user-agents
